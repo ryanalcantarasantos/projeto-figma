@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+    background-color: var(--primary-color);
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    align-items: center;
+}
