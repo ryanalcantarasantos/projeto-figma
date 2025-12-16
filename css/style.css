@@ -1,11 +1,74 @@
 body {
-    height: 100vh;
-    background-color: var(--primary-color);
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
+    background-image: url(/img/fundo.jpg);
+    background-repeat: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
 }
 header {
     display: flex;
     align-items: center;
 }
+.boneco img{
+    width: 900px;
+    display: flex;
+    margin-left: 440px;
+    margin-top: -500px;
+
+}
+.logo img{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+.titulo img{
+    width: 700px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.play {
+    width: 187px;
+    height: 44px;
+    display: flex;
+    background-color: #F4D956;
+
+
+}
+.play h1{
+    font-size:25px;
+    color: white;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 40px;
+    font-family:serif;
+    
+}
+.caixa{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -100px;
+
+}
+
+.trailer {
+    width: 187px;
+    height: 44px;
+    display: flex;
+    background-color: #6E6E6E;
+    margin-left: 150px;
+
+
+}
+.trailer h1{
+    font-size:25px;
+    color: white;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 50px;
+    font-family:serif;
+}
+
